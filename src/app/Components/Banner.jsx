@@ -16,7 +16,7 @@ const bold = localfont({
 
 const Banner = () => {
     return (
-        <div className="relative min-h-screen overflow-hidden">
+        <div className="relative  ">
             <Image
                 src={backgroundImage}
                 alt="background"
