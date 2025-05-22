@@ -60,12 +60,12 @@ function Char() {
     }
 
     return (
-        <div className='bg-[#0B0C2A] mr-4 py-6'>
+        <div className='bg-[#0B0C2A] px-3 mr-4 py-6'>
 
             {/* Characters Section */}
             <div className='text-white flex justify-between items-center mb-6'>
                 <div>
-                    <h2 className="text-2xl font-bold">Meet the cast</h2>
+                    <h2 className="text-2xl font-bold ">Meet the cast</h2>
                     {!viewAllCharacters && <p className="text-gray-400 text-sm mt-1">Click "View All" to see all characters</p>}
                 </div>
                 <button
