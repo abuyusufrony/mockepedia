@@ -70,7 +70,7 @@ function Char() {
                 </div>
                 <button
                     onClick={() => setViewAllCharacters(!viewAllCharacters)}
-                    className="bg-[#00FFCB] px-6 py-2 rounded-full text-black font-semibold hover:bg-[#00e6b3] transition-all flex items-center"
+                    className=" cursor-pointer bg-[#00FFCB] px-6 py-2 rounded-full text-black font-semibold hover:bg-[#00e6b3] transition-all flex items-center"
                 >
                     {viewAllCharacters ? 'Show Less' : 'View All'}
                     {!viewAllCharacters && <span className="ml-1">→</span>}
@@ -97,7 +97,7 @@ function Char() {
                     <h2 className='text-2xl font-bold'>Episodes</h2>
                     <button
                         onClick={() => setViewAllEpisodes(!viewAllEpisodes)}
-                        className="bg-[#00FFCB] px-6 py-2 rounded-full text-black font-semibold hover:bg-[#00e6b3] transition-all"
+                        className="bg-[#00FFCB] px-6 py-2 rounded-full text-black font-semibold hover:bg-[#00e6b3] transition-all cursor-pointer"
                     >
                         {viewAllEpisodes ? 'Show Less' : 'View All'}
                     </button>
@@ -131,7 +131,7 @@ function Char() {
                     <h2 className='text-2xl font-bold'>Locations</h2>
                     <button
                         onClick={() => setViewAllLocations(!viewAllLocations)}
-                        className="bg-[#00FFCB] px-6 py-2 rounded-full text-black font-semibold hover:bg-[#00e6b3] transition-all"
+                        className="bg-[#00FFCB] px-6 py-2 rounded-full text-black font-semibold hover:bg-[#00e6b3] transition-all cursor-pointer"
                     >
                         {viewAllLocations ? 'Show Less' : 'View All'}
                     </button>

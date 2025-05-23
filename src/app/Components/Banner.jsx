@@ -7,6 +7,7 @@ import backgroundImage from '../../../public/images/Неон город ввер
 import logo from '../../../public/images/Logo.png'
 import bubble from '../../../public/images/bubble.png'
 import portal from '../../../public/images/portal.png'
+import Link from 'next/link';
 
 
 
@@ -40,9 +41,9 @@ const Banner = () => {
                 </div>
 
                 <div className="mt-8 flex flex-col items-start text-left md:flex-row md:items-center md:justify-center md:space-x-10">
-                    <button className="mt-4 md:mt-0 bg-[#00FFCB] px-6 py-2 rounded-full text-black font-semibold hover:bg-[#00e6b3] transition-all md:mr-2.5">
+                    <Link href={`https://www.youtube.com/watch?v=KQ9Cgdsa9tc`}>  <button className=" cursor-pointer mt-4 md:mt-0 bg-[#00FFCB] px-6 py-2 rounded-full text-black font-semibold hover:bg-[#00e6b3] transition-all md:mr-2.5  ">
                         ▶ Watch Now
-                    </button>
+                    </button> </Link>
 
                     <p className="text-sm text-gray-300 font-medium font-tt md:ml-14 mt-5">
                         Brilliant but boozy scientist Rick hijacks his fretful <br />
@@ -55,7 +56,7 @@ const Banner = () => {
             </div>
 
 
-        </div>
+        </div >
     );
 };
 

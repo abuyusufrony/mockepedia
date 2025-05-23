@@ -10,6 +10,7 @@ import SingleLoc from '../../../../lib/SingleLoc';
 import { FaMapMarkerAlt } from "react-icons/fa";
 import Allepi from '../../../../lib/Allepi';
 import { FaListUl } from "react-icons/fa";
+import logo from '../../../../public/images/Logo.png'
 
 
 export async function generateMetadata({ params }) {
@@ -39,9 +40,14 @@ export default async function Page({ params }) {
                 priority
             />
 
+
             <div className="absolute inset-0 bg-black/70 z-0" />
 
             <div className="relative z-10 px-4 sm:px-6 lg:px-12 py-8 text-white">
+                <div className='logo-conatiner flex justify-center items-center'>
+                    <Image src={logo} alt="Rick and Morty Logo" width={250} height={100} className="mb-4" />
+                </div>
+
                 <div className="flex flex-col lg:flex-row justify-between gap-6">
                     {/* Left: Character Info */}
                     <div className="mt-10 lg:mt-24 text-center lg:text-left lg:w-[45%] flex flex-col items-center lg:items-start space-y-6">
